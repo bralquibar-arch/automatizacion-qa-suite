@@ -372,8 +372,4 @@ git commit -m "Agregadas pruebas para elementos dinámicos (dynamic_loading)"
 git commit -m "Automatizadas pruebas de carga y descarga de archivos"
 git commit -m "Optimización de tiempos de espera y manejo de popups en Chrome"
 
-🧩 Próximas Extensiones
-- Integrar Allure Reports.
-- Ejecución paralela con TestNG XML Suite.
-- Integración continua con GitHub Actions o Jenkins.
 
