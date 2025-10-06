@@ -1,0 +1,4 @@
+FROM justb4/jmeter:5.6.3
+WORKDIR /tests
+COPY . .
+ENTRYPOINT ["jmeter", "-n", "-t", "SwaggerPetstoreStressTest.jmx", "-l", "resultados.jtl", "-e", "-o", "reporte_html"]

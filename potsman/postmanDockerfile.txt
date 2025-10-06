@@ -1,0 +1,5 @@
+FROM postman/newman:alpine
+WORKDIR /etc/newman
+COPY collection.json .
+COPY environment.json .
+ENTRYPOINT ["newman", "run", "JSONPlaceholder API Testing.collection", "-e", "ReqRes API Testing"]
